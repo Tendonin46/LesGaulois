@@ -17,23 +17,18 @@ public class Gaulois {
 		return force;
 	}
 
-	public void setForce(int force) {
-		this.force = force;
-	}
-
-	@Override
 	public String toString() {
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
-
 	public int getEffetPotion() {
 		return effetPotion;
 	}
 
-	public void setEffetPotion(int effetPotion) {
-		this.effetPotion = effetPotion;
-	}
 	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Asterix",9);
+		System.out.println(asterix.getNom());
+		System.out.println(asterix);
+		
 	}
 	public void parler(String texte) {
 		System.out.println(prendreParole()+"<"+ texte +">");
@@ -46,9 +41,7 @@ public class Gaulois {
 	}
 
 	 public void frapper(Romain romain) { 
-	 System.out.println(nom + " envoie un grand coup dans la mâchoire de " 
-	 + romain.getNom()); 
-	 romain.recevoirCoup(force / 3); 
+	 System.out.println(nom + " envoie un grand coup dans la mï¿½choire de " + romain.getNom()); romain.recevoirCoup(force / 3); 
 	 }
 }
 
