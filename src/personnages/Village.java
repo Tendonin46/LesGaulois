@@ -34,7 +34,9 @@ public class Village {
 
 	public static void afficherVillageois() {
 		System.out.println("Dans le village du chef Abraracourcix vivent les légendaires gaulois: ");
-		
+		for(int i=0;i<nbVillageoisMaximum;i++) {
+			System.out.println("- "+villageois[i]);
+		}
 	}
 
 	public static void main(String[] args) {
