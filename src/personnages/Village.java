@@ -51,7 +51,6 @@ public class Village {
 		//On obtient parce que le tableau ne contient qu'un seul élément qui se situe à l'indice 0 donc à l'indice 1 il n'y a rien
 		Gaulois Obélix = new Gaulois("Obélix",25);
 		ajouterHabitant(Obélix);
-		
-
+		afficherVillageois();
 	}
 }
