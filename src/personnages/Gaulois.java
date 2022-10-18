@@ -4,6 +4,7 @@ public class Gaulois {
 	private String nom;
 	private int effetPotion = 1;
 	private int force,nb_trophees; 
+	private int forceCoup;
 	private Equipement trophees[] = new Equipement[100]; 
 	
 	public Gaulois(String nom, int force) {
@@ -41,6 +42,7 @@ public class Gaulois {
 	}
 
 	 public void frapper(Gaulois gaulois) { 
+		 forceCoup=(force=/3)*effetPotionMin;
 	 	 System.out.println(nom + " envoie un grand coup dans la machoire de " + gaulois.getNom()); 
 	 }
 
