@@ -13,9 +13,8 @@ public class Gaulois {
 	
 	public void boirePotion(int forcePotion) {
 		effetPotion+=forcePotion;
-		if(forcePotion == 3) {
-			System.out.println("<< Merci Druide, je sens que ma force est"+forcePotion +"fois décuplée.>> ");
-		}
+		System.out.println("<< Merci Druide, je sens que ma force est"+forcePotion +"fois décuplée.>> ");
+		
 	}
 	
 	public String getNom() {
