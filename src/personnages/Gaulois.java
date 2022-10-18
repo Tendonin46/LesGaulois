@@ -14,7 +14,7 @@ public class Gaulois {
 	public void boirePotion(int forcePotion) {
 		effetPotion+=forcePotion;
 		if(forcePotion == 3) {
-			System.out.println("<< Merci Druide, je sens que ma force est"+forcePotion +"fois décuplée.>> ");
+			System.out.println("<< Merci Druide, je sens que ma force est"+forcePotion +"fois dÃ©cuplÃ©e.>> ");
 		}
 	}
 	
@@ -45,14 +45,6 @@ public class Gaulois {
 	 	 System.out.println(nom + " envoie un grand coup dans la machoire de " + gaulois.getNom()); 
 	 }
 
-	 public void frapper(Romain romain) { 
-		 System.out.println(nom  +  "  envoie  un  grand  coup  dans  la mâchoire de " + romain.getNom()); 
-		 Equipement  trophees[]  =  romain.recevoirCoup((force  /  3)  * effetPotion); 
-		 for  (int  i  =  0;  trophees  !=  null  &&  i  <  trophees.length;  i++, nb_trophees++) { 
-			 this.trophees[nb_trophees] = trophees[i]; 
-		 } 
-		 return; 
-	 } 
 	 
 
 
