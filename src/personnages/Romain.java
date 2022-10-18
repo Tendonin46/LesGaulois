@@ -16,6 +16,9 @@ public class Romain {
 	public String getNom() {
 		return nom;
 	}
+        public void frapper(Romain romain) { 
+		 System.out.println(nom  +  "  envoie  un  grand  coup  dans  la mâchoire de " + romain.getNom()); 
+	 } 
 	public void parler(String texte) {
 		System.out.println(prendreParole()+"\"\"" + texte + "\"\"");
 	}
@@ -114,7 +117,7 @@ public class Romain {
 				break;	
 			default:
 
-			ajouterEquipement(Equip);
+			ajouterEquipement(Equip);o
 				break;
 		}
 	}
