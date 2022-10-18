@@ -34,6 +34,9 @@ public class Druide {
 		 if(gaulois==obelix){
 			System.out.println("<< Non, Obélix !... Tu n'auras pas de potion magique! >>");	
 			}
+		 else{
+			 gaulois.boirePotion(forcePotion);
+		 }
 	 }
 	public String getNom() {
 		return nom;
