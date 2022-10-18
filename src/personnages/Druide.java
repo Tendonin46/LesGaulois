@@ -26,6 +26,7 @@ public class Druide {
 		}
 	}
 	 public void boirePotion(int forcePotion) {
+		 	effetPotionMin=forcePotion;
 			System.out.println("<< Merci Druide, je sens que ma force est "+ forcePotion +" fois décuplée. >> ");
 		
 		}
