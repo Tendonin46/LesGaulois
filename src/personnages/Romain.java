@@ -117,7 +117,7 @@ public class Romain {
 				break;	
 			default:
 
-			ajouterEquipement(Equip);o
+			ajouterEquipement(Equip);
 				break;
 		}
 	}

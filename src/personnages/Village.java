@@ -33,7 +33,7 @@ public class Village {
 	}
 
 	public void afficherVillageois() {
-		System.out.println("Dans le village du chef Abraracourcix vivent les légendaires gaulois: ");
+		System.out.println("Dans le village du chef Abraracourcix vivent les lï¿½gendaires gaulois: ");
 		for(int i=0;i<nbVillageoisMaximum;i++) {
 			System.out.println("- "+villageois[i]);
 		}
@@ -43,14 +43,14 @@ public class Village {
 		Village village = new Village("Village des Irreductibles", 30);
 		//Gaulois gaulois = village.trouverHabitant(30);
 		//On obtient cette execption parce que le tableau est de taille 30 et l'element d'indice 30 n'existe pas
-		Chef abraracoursix = new setChef("abraracoursix");
+		Chef abraracoursix = new setChef(abraracoursix);
 		village.setChef(abraracoursix);
-		Gaulois Asterix = new Gaulois("Asterix",8);
+		Gaulois asterix = new Gaulois("Asterix",8);
 		Gaulois gaulois = village.trouverHabitant(1);
 		System.out.println(gaulois);
-		//On obtient parce que le tableau ne contient qu'un seul élément qui se situe à  l'indice 0 donc à  l'indice 1 il n'y a rien
-		Gaulois Obélix = new Gaulois("Obélix",25);
-		village.ajouterHabitant(Obélix);
+		//On obtient parce que le tableau ne contient qu'un seul element qui se situe a l'indice 0 donc a l'indice 1 il n'y a rien
+		Gaulois obelix = new Gaulois("Obelix",25);
+		village.ajouterHabitant(obelix);
 		village.afficherVillageois();
 	}
 }

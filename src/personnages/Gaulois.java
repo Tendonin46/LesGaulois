@@ -14,7 +14,7 @@ public class Gaulois {
 	
 	public void boirePotion(int forcePotion) {
 		effetPotion+=forcePotion;
-		System.out.println("<< Merci Druide, je sens que ma force est"+forcePotion +"fois décuplée.>> ");
+		System.out.println("<< Merci Druide, je sens que ma force est "+forcePotion +" fois décuplée.>> ");
 		
 	}
 	
@@ -42,7 +42,7 @@ public class Gaulois {
 	}
 
 	 public void frapper(Gaulois gaulois) { 
-		 forceCoup=(force=/3)*effetPotionMin;
+		 forceCoup=(force/3)*effetPotion;
 	 	 System.out.println(nom + " envoie un grand coup dans la machoire de " + gaulois.getNom()); 
 	 }
 
