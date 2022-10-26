@@ -27,3 +27,5 @@ public class Scenario {
 		minus.parler("J'abandonne");
 	}
 }
+
+

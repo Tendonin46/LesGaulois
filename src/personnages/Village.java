@@ -33,7 +33,7 @@ public class Village {
 	}
 
 	public void afficherVillageois() {
-		System.out.println("Dans le village du chef Abraracourcix vivent les l�gendaires gaulois: ");
+		System.out.println("Dans le village du chef Abraracourcix vivent les légendaires gaulois: ");
 		for(int i=0;i<nbVillageoisMaximum;i++) {
 			System.out.println("- "+villageois[i]);
 		}
