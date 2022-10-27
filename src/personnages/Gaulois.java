@@ -64,7 +64,7 @@ public class Gaulois {
 	public void faireUneDonation(Musee musee) {
 		if(trophees[0]!=null) {
 			parler("Je donne tout mes trophees :");
-			for(int i=0;i<100 && trophees[i]!=null;i++) {
+			for(int i=0;i<nbTrophees;i++) {
 				System.out.println("-"+trophees[i]);
 			}
 			
