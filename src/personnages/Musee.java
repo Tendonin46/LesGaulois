@@ -8,8 +8,21 @@ public class Musee {
 		tab[nbTrophee]=equipement;
 		nbTrophee++;
 	}
+	
 	public String extraireInstructionsCaml() {
-		return trophees;
-	}
+        	String texte = "let musee = [\n";
+        	for (int i = 0; i < nbTrophees; i++) {
+            		String nom = trophees[i].donnerNom();
+            		Equipement equipement = trophees[i].getEquipement();
+            		if (nbTrophees - 1 != i) {
+                		texte += """ + nom + ""," + """ + equipement + "";\n";
+            		} else {
+                		texte += """ + nom + ""," + """ + equipement + ""\n";
+            		}
+        	}
+        	texte += "]";
+        	return texte;
+    	}
+		
 }
 
